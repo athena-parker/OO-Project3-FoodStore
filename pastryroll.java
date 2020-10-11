@@ -1,3 +1,3 @@
-class pastryroll {
+class pastryroll extends roll {
     pastryroll () {}
 }

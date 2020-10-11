@@ -1,3 +1,3 @@
-class springroll {
+class springroll extends roll {
     springroll() {}
 }

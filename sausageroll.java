@@ -1,3 +1,3 @@
-class sausageroll {
+class sausageroll extends roll {
     sausageroll () {}
 }

@@ -1,3 +1,3 @@
-class eggroll {
+class eggroll extends roll {
     eggroll () {}
 }

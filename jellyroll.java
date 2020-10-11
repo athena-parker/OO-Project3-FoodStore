@@ -1,3 +1,3 @@
-class jellyroll {
+class jellyroll extends roll {
     jellyroll () {}
 }
