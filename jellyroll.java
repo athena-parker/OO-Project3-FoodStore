@@ -1,0 +1,3 @@
+class jellyroll {
+    jellyroll () {}
+}
