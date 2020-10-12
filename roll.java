@@ -1,3 +1,3 @@
-class roll {
+public abstract class roll {
     roll () {}
 }

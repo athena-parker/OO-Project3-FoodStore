@@ -1,6 +1,6 @@
 class factory { //factory pattern
     factory () {}
-    public Roll createRoll (String rollType) {
+    public roll createRoll (String rollType) {
         if (rollType == "egg") {
             return new eggroll();
         }
@@ -16,8 +16,9 @@ class factory { //factory pattern
         if (rollType == "jelly") {
             return new jellyroll();
         }
+        return null;
     }
-    public Customer createCustomer (String customerType) {
+    public customer createCustomer (String customerType) {
         if (customerType == "casual") {
             return new casualcustomer();
         }
@@ -27,5 +28,6 @@ class factory { //factory pattern
         if (customerType == "catering") {
             return new cateringcustomer();
         }
+        return null;
     }
 }

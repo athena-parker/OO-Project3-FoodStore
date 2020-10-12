@@ -1,6 +1,6 @@
 class decorator extends roll{
-    protected Roll decoratedRoll;
-    public decorator(Roll toDecorate){
+    protected roll decoratedRoll;
+    public decorator(roll toDecorate){
         decoratedRoll = toDecorate;
     }
 
