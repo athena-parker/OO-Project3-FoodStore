@@ -1,3 +1,5 @@
 class jellyroll extends roll {
-    jellyroll () {}
+    jellyroll () {
+        type = "jelly";
+    }
 }

@@ -1,3 +1,5 @@
 class eggroll extends roll {
-    eggroll () {}
+    eggroll () {
+        type = "egg";
+    }
 }

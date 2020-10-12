@@ -1,3 +1,5 @@
 class springroll extends roll {
-    springroll() {}
+    springroll() {
+        type = "spring";
+    }
 }

@@ -1,3 +1,5 @@
 class sausageroll extends roll {
-    sausageroll () {}
+    sausageroll () {
+        type = "sausage";
+    }
 }

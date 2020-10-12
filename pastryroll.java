@@ -1,3 +1,5 @@
 class pastryroll extends roll {
-    pastryroll () {}
+    pastryroll () {
+        type = "pastry";
+    }
 }
