@@ -142,7 +142,7 @@ class store extends factory {
             rollStore.printInventory(rollStore);
             for(int j = 0; j < (numCas+numBis+numCat); j++){
                 dailyCustomers[j].arrive();
-                dailyCustomers[j].buyRolls();
+                dailyCustomers[j].orderRolls();
                 if(rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
                     open = false;
                     eventbean.makeEvent("closed");
