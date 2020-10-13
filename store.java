@@ -11,6 +11,12 @@ class store extends factory {
     public int sausageInventory = 30;
     public int springInventory = 30;
 
+    roll[] eggArray = new roll[30]; //make array of each roll to populate w factory
+    roll[] jellyArray = new roll[30];
+    roll[] sausageArray = new roll[30];
+    roll[] springArray = new roll[30];
+    roll[] pastryArray = new roll[30];
+
     //Encapsulation, only the store should have access to the
     //Prices and profits
     private double eggPrice = 4.25; //Keep track of the price of each roll
@@ -23,53 +29,57 @@ class store extends factory {
     private double dailyEarnings = 0;
     private double totalEarnings = 0;
 
+    //updates the inventory of each roll
+    //prints message when sold out
     public void updateInventory(String roll) {
         if (roll == "Egg") {
             eggInventory -= 1;
             if (eggInventory == 0){
-                System.out.println("Sold out of Eggrolls")   ;
+                System.out.println("Sold out of Eggrolls");
             }
         } else if (roll == "Jelly") {
             jellyInventory -= 1;
             if (jellyInventory == 0){
-                System.out.println("Sold out of Jellyrolls")   ;
+                System.out.println("Sold out of Jellyrolls");
             }
         } else if (roll == "Pastry") {
             pastryInventory -= 1;
             if (pastryInventory == 0){
-                System.out.println("Sold out of Pastryrolls")   ;
+                System.out.println("Sold out of Pastryrolls");
             }
         } else if (roll == "Sausage") {
             sausageInventory -= 1;
             if (sausageInventory == 0){
-                System.out.println("Sold out of Sausagerolls")   ;
+                System.out.println("Sold out of Sausagerolls");
             }
         } else if (roll == "Spring") {
             springInventory -= 1;
             if (springInventory == 0){
-                System.out.println("Sold out of Springrolls")   ;
+                System.out.println("Sold out of Springrolls");
             }
         }
     }
 
+    private void callFactory(roll[] array, factory store_Factory, String type){
+        for(int i =0; i < 30; i++){
+            array[i] = store_Factory.createRoll(type);
+        }
+    }
+
     public static void main(String[] args) {
-        store rollStore = new store();
+
+        store rollStore = new store();//create store
+
         factory storeFactory = new factory(); //create roll/customer factory
 
-        roll[] eggArray = new roll[30]; //make array of each roll to populate w factory
-        roll[] jellyArray = new roll[30];
-        roll[] sausageArray = new roll[30];
-        roll[] springArray = new roll[30];
-        roll[] pastryArray = new roll[30];
-
         //Day 0, factory must supply 30 of each roll
-        for(int i =0; i < 30; i++){
-            eggArray[i] = storeFactory.createRoll("egg");
-            jellyArray[i] = storeFactory.createRoll("jelly");
-            sausageArray[i] = storeFactory.createRoll("sausage");
-            springArray[i] = storeFactory.createRoll("spring");
-            pastryArray[i] = storeFactory.createRoll("pastry");
-        } //populate arrays with 30 of each roll
+        rollStore.callFactory(rollStore.eggArray, storeFactory, "egg");
+        rollStore.callFactory(rollStore.jellyArray, storeFactory, "jelly");
+        rollStore.callFactory(rollStore.sausageArray, storeFactory, "sausage");
+        rollStore.callFactory(rollStore.springArray, storeFactory, "spring");
+        rollStore.callFactory(rollStore.pastryArray, storeFactory, "pastry");
+        //populate arrays with 30 of each roll
+
 
         Scanner sc = new Scanner(System.in); //take user input for # of days
         int days = 0;
@@ -96,8 +106,8 @@ class store extends factory {
             System.out.println(rollStore.eggInventory + " Eggrolls");
             System.out.println(rollStore.jellyInventory + " Jellyrolls");
             System.out.println(rollStore.pastryInventory + " Pastryrolls");
-            System.out.println(rollStore.sausageInventory + " sausagerolls");
-            System.out.println(rollStore.springInventory + " springrolls");
+            System.out.println(rollStore.sausageInventory + " Sausagerolls");
+            System.out.println(rollStore.springInventory + " Springrolls");
         }
 
 
