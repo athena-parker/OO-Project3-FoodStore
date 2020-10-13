@@ -29,6 +29,15 @@ class store extends factory {
     private double dailyEarnings = 0;
     private double totalEarnings = 0;
 
+    private void printInventory(store roll_store){
+        System.out.println("Current Inventory: ");
+        System.out.println(roll_store.eggInventory + " Eggrolls");
+        System.out.println(roll_store.jellyInventory + " Jellyrolls");
+        System.out.println(roll_store.pastryInventory + " Pastryrolls");
+        System.out.println(roll_store.sausageInventory + " Sausagerolls");
+        System.out.println(roll_store.springInventory + " Springrolls");
+    }
+
     //updates the inventory of each roll
     //prints message when sold out
     public void updateInventory(String roll) {
@@ -66,9 +75,25 @@ class store extends factory {
         }
     }
 
+    private static void shuffleArray(customer[] array)
+    {
+        int index;
+        customer temp;
+        Random random = new Random();
+        for (int i = array.length - 1; i > 0; i--)
+        {
+            index = random.nextInt(i + 1);
+            temp = array[index];
+            array[index] = array[i];
+            array[i] = temp;
+        }
+    } //adapted from stackOverflow: https://stackoverflow.com/questions/1519736/random-shuffling-of-an-array
+
     public static void main(String[] args) {
 
         store rollStore = new store();//create store
+
+        bean Observer = new bean(); //not sure if this is right
 
         factory storeFactory = new factory(); //create roll/customer factory
 
@@ -99,15 +124,25 @@ class store extends factory {
             int numBis = randBis.nextInt(3) + 1; //1-3 Business customers
             int numCat = randCat.nextInt(3) + 1; //1-3 Catering customers
 
+            customer[] dailyCustomers = new customer[(numCas + numBis + numCat)];
+            //makes array of all the customers to arrive
+            //idk if this is right
+            for(int j = 0; j < numCas; j++){
+                dailyCustomers[j] = storeFactory.createCustomer("casual");
+            }
+            for(int j = numCas; j < (numCas+numBis); j++){
+                dailyCustomers[j] = storeFactory.createCustomer("business");
+            }
+            for(int j = (numCas+numBis); j < (numCas+numBis+numCat); j++){
+                dailyCustomers[j] = storeFactory.createCustomer("catering");
+            }
+            rollStore.shuffleArray(dailyCustomers); //makes customer random
+
             //At the start of each day, print the day and the number
             //of each roll stocked
             System.out.println("Day "+ i +":");
-            System.out.println("Current Inventory: ");
-            System.out.println(rollStore.eggInventory + " Eggrolls");
-            System.out.println(rollStore.jellyInventory + " Jellyrolls");
-            System.out.println(rollStore.pastryInventory + " Pastryrolls");
-            System.out.println(rollStore.sausageInventory + " Sausagerolls");
-            System.out.println(rollStore.springInventory + " Springrolls");
+            rollStore.printInventory(rollStore);
+
         }
 
 
