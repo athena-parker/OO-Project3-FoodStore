@@ -19,14 +19,15 @@ class factory { //factory pattern
         return null;
     }
     public customer createCustomer (String customerType) {
+        bean eventbean = new bean();
         if (customerType == "casual") {
-            return new casualcustomer();
+            return new casualcustomer(eventbean);
         }
         if (customerType == "business") {
-            return new businesscustomer();
+            return new businesscustomer(eventbean);
         }
         if (customerType == "catering") {
-            return new cateringcustomer();
+            return new cateringcustomer(eventbean);
         }
         return null;
     }

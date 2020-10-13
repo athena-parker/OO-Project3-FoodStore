@@ -1,3 +1,5 @@
 class cateringcustomer extends customer {
-    cateringcustomer () {}
+    cateringcustomer (bean sourcebean) {
+        super(sourcebean);
+    }
 }

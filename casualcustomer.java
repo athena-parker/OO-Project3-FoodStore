@@ -1,3 +1,5 @@
 class casualcustomer extends customer {
-    casualcustomer () {}
+    casualcustomer (bean sourcebean) {
+        super(sourcebean);
+    }
 }

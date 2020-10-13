@@ -1,3 +1,5 @@
 class businesscustomer extends customer {
-    businesscustomer () {}
+    businesscustomer (bean sourcebean) {
+        super(sourcebean);
+    }
 }
