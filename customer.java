@@ -14,9 +14,8 @@ public abstract class customer extends PropertyChangeSupport implements Property
     public void leave () {
         System.out.println("A " + type + " customer has left!");
     }
-    public String[] orderRolls () {
-        String[] notAnArray = null;
-        return notAnArray;
+    public String orderRolls () {
+        return "nothing";
     }
     public void rollsOut () {}
 
