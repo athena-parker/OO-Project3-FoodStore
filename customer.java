@@ -8,8 +8,12 @@ public abstract class customer extends PropertyChangeSupport implements Property
     }
 
     public String type;
-    public void arrive () {}
-    public void leave () {}
+    public void arrive () {
+        System.out.println("A " + type + " customer has arrived!");
+    }
+    public void leave () {
+        System.out.println("A " + type + " customer has left!");
+    }
     public void buyRolls () {}
     public void rollsOut () {}
 
