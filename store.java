@@ -142,6 +142,11 @@ class store extends factory {
             //of each roll stocked
             System.out.println("Day "+ i +":");
             rollStore.printInventory(rollStore);
+            for(int j = 0; j < (numCas+numBis+numCat); j++){
+                dailyCustomers[j].arrive();
+                dailyCustomers[j].buyRolls();
+
+            }
 
         }
 
