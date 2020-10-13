@@ -34,29 +34,39 @@ class store extends factory {
 
     //updates the inventory of each roll
     //prints message when sold out
-    public void updateInventory(String roll) {
-        if (roll == "Egg") {
-            eggInventory -= 1;
+    public void updateInventory(String roll, int amount) {
+        if (roll == "egg") {
+            dailyEarnings += (eggArray[0].price * amount);
+            System.out.println(amount + " eggroll: " + eggArray[0].price * amount);
+            eggInventory -= amount;
             if (eggInventory == 0){
                 System.out.println("Sold out of Eggrolls");
             }
-        } else if (roll == "Jelly") {
-            jellyInventory -= 1;
+        } else if (roll == "jelly") {
+            dailyEarnings += (jellyArray[0].price * amount);
+            System.out.println(amount + " jellyroll: " + jellyArray[0].price * amount);
+            jellyInventory -= amount;
             if (jellyInventory == 0){
                 System.out.println("Sold out of Jellyrolls");
             }
-        } else if (roll == "Pastry") {
-            pastryInventory -= 1;
+        } else if (roll == "pastry") {
+            dailyEarnings += (pastryArray[0].price * amount);
+            System.out.println(amount + " pastryroll: " + pastryArray[0].price * amount);
+            pastryInventory -= amount;
             if (pastryInventory == 0){
                 System.out.println("Sold out of Pastryrolls");
             }
-        } else if (roll == "Sausage") {
-            sausageInventory -= 1;
+        } else if (roll == "sausage") {
+            dailyEarnings += (sausageArray[0].price * amount);
+            System.out.println(amount + " sausageroll: " + sausageArray[0].price * amount);
+            sausageInventory -= amount;
             if (sausageInventory == 0){
                 System.out.println("Sold out of Sausagerolls");
             }
-        } else if (roll == "Spring") {
-            springInventory -= 1;
+        } else if (roll == "spring") {
+            dailyEarnings += (springArray[0].price * amount);
+            System.out.println(amount + " springroll: " + springArray[0].price * amount);
+            springInventory -= amount;
             if (springInventory == 0){
                 System.out.println("Sold out of Springrolls");
             }
@@ -118,7 +128,6 @@ class store extends factory {
 
             customer[] dailyCustomers = new customer[(numCas + numBis + numCat)];
             //makes array of all the customers to arrive
-            //idk if this is right
             bean eventbean = new bean();
             open = true;
             eventbean.makeEvent("open");
@@ -140,18 +149,48 @@ class store extends factory {
             //of each roll stocked
             System.out.println("Day "+ i +":");
             rollStore.printInventory(rollStore);
-            for(int j = 0; j < (numCas+numBis+numCat); j++){
+            for(int j = 0; j < (numCas+numBis+numCat); j++) {
                 dailyCustomers[j].arrive();
-                dailyCustomers[j].orderRolls();
-                if(rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
+                if (dailyCustomers[j].type == "casual") {
+
+                }
+                if (dailyCustomers[j].type == "business") {
+                    if (rollStore.eggInventory < 2 || rollStore.springInventory < 2 || rollStore.jellyInventory < 2 || rollStore.sausageInventory < 2 || rollStore.pastryInventory < 2) {
+                        dailyCustomers[j].leave();
+                    } else {
+                        rollStore.updateInventory("egg", 2);
+                        rollStore.updateInventory("spring", 2);
+                        rollStore.updateInventory("pastry", 2);
+                        rollStore.updateInventory("sausage", 2);
+                        rollStore.updateInventory("jelly", 2);
+                    }
+                }
+                if (dailyCustomers[j].type == "catering") {
+                    //orders 5 rolls of 3 different types determined randomly
+                    if (type1.inventory < 5 || type2.inventory < 5 || type3.inventory < 5) {
+                        //give them random stuff
+                    }
+                    else {
+                        rollStore.updateInventory("type1", 5);
+                        rollStore.updateInventory("type2", 5);
+                        rollStore.updateInventory("type3", 5);
+                    }
+                }
+                //dailyCustomers[j].orderRolls();
+                if (rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
                     open = false;
                     eventbean.makeEvent("closed");
                 }
             }
+
             open = false;
             eventbean.makeEvent("closed");
+            System.out.println("Daily Earnings: " + rollStore.dailyEarnings);
+            rollStore.totalEarnings += rollStore.dailyEarnings;
+            rollStore.dailyEarnings = 0;
 
         }
+        System.out.println("Total Earnings: " + rollStore.totalEarnings);
 
 
     }

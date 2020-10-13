@@ -6,4 +6,8 @@ class businesscustomer extends customer {
     //public void orderRolls () {
         //System.out.println("Business Customer would like 2 of each roll");
     //}
+
+    public void rollsOut(String type) {
+
+    }
 }
