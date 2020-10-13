@@ -1,7 +1,7 @@
 public abstract class roll {
     public String type;
-    public double cost;
+    public double price;
     roll () {
-        cost = 0;
+        price = 0.00;
     }
 }

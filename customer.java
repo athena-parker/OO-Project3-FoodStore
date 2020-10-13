@@ -8,9 +8,6 @@ public abstract class customer extends PropertyChangeSupport implements Property
     }
 
     public String type;
-    public void setType(String customerType) {
-        type = customerType;
-    }
     public void arrive () {}
     public void leave () {}
     public void buyRolls () {}
