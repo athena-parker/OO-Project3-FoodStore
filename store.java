@@ -3,7 +3,6 @@ import java.util.Scanner;
 class store extends factory {
     store() {
     }
-    Boolean open = true;
 
     public int eggInventory = 30;
     public int jellyInventory = 30;
@@ -19,11 +18,6 @@ class store extends factory {
 
     //Encapsulation, only the store should have access to the
     //Prices and profits
-    private double eggPrice = 4.25; //Keep track of the price of each roll
-    private double jellyPrice = 6.00;
-    private double pastryPrice = 5.30;
-    private double sausagePrice = 6.25;
-    private double springPrice = 3.79;
 
     //Keep track of the daily Earnings and the overall Earnings of the store
     private double dailyEarnings = 0;
@@ -90,10 +84,8 @@ class store extends factory {
     } //adapted from stackOverflow: https://stackoverflow.com/questions/1519736/random-shuffling-of-an-array
 
     public static void main(String[] args) {
-
+        boolean open;
         store rollStore = new store();//create store
-
-        bean Observer = new bean(); //not sure if this is right
 
         factory storeFactory = new factory(); //create roll/customer factory
 
@@ -127,14 +119,20 @@ class store extends factory {
             customer[] dailyCustomers = new customer[(numCas + numBis + numCat)];
             //makes array of all the customers to arrive
             //idk if this is right
+            bean eventbean = new bean();
+            open = true;
+            eventbean.makeEvent("open");
             for(int j = 0; j < numCas; j++){
                 dailyCustomers[j] = storeFactory.createCustomer("casual");
+                eventbean.addPropertyChangeListener(dailyCustomers[j]);
             }
             for(int j = numCas; j < (numCas+numBis); j++){
                 dailyCustomers[j] = storeFactory.createCustomer("business");
+                eventbean.addPropertyChangeListener(dailyCustomers[j]);
             }
             for(int j = (numCas+numBis); j < (numCas+numBis+numCat); j++){
                 dailyCustomers[j] = storeFactory.createCustomer("catering");
+                eventbean.addPropertyChangeListener(dailyCustomers[j]);
             }
             rollStore.shuffleArray(dailyCustomers); //makes customer random
 
@@ -145,8 +143,13 @@ class store extends factory {
             for(int j = 0; j < (numCas+numBis+numCat); j++){
                 dailyCustomers[j].arrive();
                 dailyCustomers[j].buyRolls();
-
+                if(rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
+                    open = false;
+                    eventbean.makeEvent("closed");
+                }
             }
+            open = false;
+            eventbean.makeEvent("closed");
 
         }
 
