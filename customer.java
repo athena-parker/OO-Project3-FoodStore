@@ -6,6 +6,11 @@ public abstract class customer extends PropertyChangeSupport implements Property
     public customer (bean sourcebean) {
         super(sourcebean);
     }
+
+    public String type;
+    public void setType(String customerType) {
+        type = customerType;
+    }
     public void arrive () {}
     public void leave () {}
     public void buyRolls () {}
