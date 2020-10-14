@@ -205,92 +205,102 @@ class store extends factory {
                 if (dailyCustomers[j].type == "catering") {
                     //orders 5 rolls of 3 different types determined randomly
                     Random randRoll = new Random();
-                    int type1 = -1;
-                    int type2 = -1;
-                    int type3 = -1;
+                    int type = -1;
                     int numRolls = 0;
-                    while (numRolls <= 15) {
-                        type1 = randRoll.nextInt(5); //0-4, one for each roll
-                        while (type2 != type1) {
-                            type2 = randRoll.nextInt(5);
-                        }
-                        while (type3 != type1 && type3 != type2) {
-                            type3 = randRoll.nextInt(5);
-                        }
-                        if (type1 == 0 || type2 == 0 || type3 == 0) {
-                            if (rollStore.eggInventory < 5 && rollStore.eggInventory > 0) {
+                    while (numRolls < 15) {
+                        type = randRoll.nextInt(5); //0-4, one for each roll
+                        if (type == 0) {
+                            if (rollStore.eggInventory >= 5 && numRolls <= 10) {
+                                rollStore.updateInventory("egg", 5);
+                                numRolls += 5;
+                            }
+                            else if (rollStore.eggInventory > 0) {
                                 while (rollStore.eggInventory > 0 && numRolls <= 15) {
                                     rollStore.updateInventory("egg", 1);
                                     numRolls += 1;
                                 }
                             }
-                            else if (rollStore.eggInventory >= 5 && numRolls <= 10) {
-                                rollStore.updateInventory("egg", 5);
+                        }
+                        if (type == 1) {
+                            if (rollStore.jellyInventory >= 5 && numRolls <= 10) {
+                                rollStore.updateInventory("jelly", 5);
                                 numRolls += 5;
                             }
-                        }
-                        if (type1 == 1 || type2 == 1 || type3 == 1) {
-                            if (rollStore.jellyInventory < 5 && rollStore.jellyInventory > 0) {
+                            else if (rollStore.jellyInventory > 0) {
                                 while (rollStore.jellyInventory > 0 && numRolls <= 15) {
                                     rollStore.updateInventory("jelly", 1);
                                     numRolls += 1;
                                 }
                             }
-                            else if (rollStore.jellyInventory >= 5 && numRolls <= 10) {
-                                rollStore.updateInventory("jelly", 5);
+                        }
+                        if (type == 2) {
+                            if (rollStore.pastryInventory >= 5 && numRolls <= 10) {
+                                rollStore.updateInventory("pastry", 5);
                                 numRolls += 5;
                             }
-                        }
-                        if (type1 == 2 || type2 == 2 || type3 == 2) {
-                            if (rollStore.pastryInventory < 5 && rollStore.pastryInventory > 0) {
+                            else if (rollStore.pastryInventory > 0) {
                                 while (rollStore.pastryInventory > 0 && numRolls <= 15) {
                                     rollStore.updateInventory("pastry", 1);
                                     numRolls += 1;
                                 }
                             }
-                            else if (rollStore.pastryInventory >= 5 && numRolls <= 10) {
-                                rollStore.updateInventory("pastry", 5);
+                        }
+                        if (type == 3) {
+                            if (rollStore.sausageInventory >= 5 && numRolls <= 10) {
+                                rollStore.updateInventory("sausage", 5);
                                 numRolls += 5;
                             }
-                        }
-                        if (type1 == 3 || type2 == 3 || type3 == 3) {
-                            if (rollStore.sausageInventory < 5 && rollStore.sausageInventory > 0) {
+                            else if (rollStore.sausageInventory > 0) {
                                 while (rollStore.sausageInventory > 0 && numRolls <= 15) {
                                     rollStore.updateInventory("sausage", 1);
                                     numRolls += 1;
                                 }
                             }
-                            else if (rollStore.sausageInventory >= 5 && numRolls <= 10) {
-                                rollStore.updateInventory("sausage", 5);
+
+                        }
+                        if (type == 4) {
+                            if (rollStore.springInventory >= 5 && numRolls <= 10) {
+                                rollStore.updateInventory("spring", 5);
                                 numRolls += 5;
                             }
-                        }
-                        if (type1 == 4 || type2 == 4 || type3 == 4) {
-                            if (rollStore.springInventory < 5 && rollStore.springInventory > 0) {
+                            else if (rollStore.springInventory > 0) {
                                 while (rollStore.springInventory > 0 && numRolls <= 15) {
                                     rollStore.updateInventory("spring", 1);
                                     numRolls += 1;
                                 }
                             }
-                            else if (rollStore.springInventory >= 5 && numRolls <= 10) {
-                                rollStore.updateInventory("spring", 5);
-                                numRolls += 5;
-                            }
+                        }
+                        if (rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
+                            break;
                         }
                     }
                 }
-                rollStore.printInventory(rollStore);
                 if (rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
                     open = false;
                     eventbean.makeEvent("closed");
                 }
             }
-
+            rollStore.printInventory(rollStore);
             open = false;
             eventbean.makeEvent("closed");
             System.out.println("Daily Earnings: " + rollStore.dailyEarnings + "\n");
             rollStore.totalEarnings += rollStore.dailyEarnings;
             rollStore.dailyEarnings = 0;
+            if (rollStore.eggInventory == 0) {
+                rollStore.eggInventory = 30;
+            }
+            if (rollStore.pastryInventory ==  0) {
+                rollStore.pastryInventory = 30;
+            }
+            if (rollStore.jellyInventory ==  0) {
+                rollStore.jellyInventory = 30;
+            }
+            if (rollStore.sausageInventory ==  0) {
+                rollStore.sausageInventory = 30;
+            }
+            if (rollStore.springInventory ==  0) {
+                rollStore.springInventory = 30;
+            }
 
         }
         System.out.println("Total Earnings: " + rollStore.totalEarnings);
