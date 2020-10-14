@@ -1,57 +1,57 @@
 class decorator extends roll{
-    protected roll decoratedRoll;
+    public roll decoratedRoll;
     public decorator(roll toDecorate){
         decoratedRoll = toDecorate;
     }
-    public void addSauce() {
+    public void addSauce(int numSauce) {
         if (decoratedRoll.type == "egg") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (0.50 * numSauce);
         }
         if (decoratedRoll.type == "spring") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (0.25 * numSauce);
         }
         if (decoratedRoll.type == "pastry") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (0.75 * numSauce);
         }
         if (decoratedRoll.type == "sausage") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (0.10 * numSauce);
         }
         if (decoratedRoll.type == "jelly") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (0.60 * numSauce);
         }
     }
-    public void addFilling() {
+    public void addFilling(int numFilling) {
         if (decoratedRoll.type == "egg") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (1.00 * numFilling);
         }
         if (decoratedRoll.type == "spring") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (1.25 * numFilling);
         }
         if (decoratedRoll.type == "pastry") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (1.50 * numFilling);
         }
         if (decoratedRoll.type == "sausage") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (1.75 * numFilling);
         }
         if (decoratedRoll.type == "jelly") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (1.99 * numFilling);
         }
     }
-    public void addTopping() {
+    public void addTopping(int numToppings) {
         if (decoratedRoll.type == "egg") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (2.00 * numToppings);
         }
         if (decoratedRoll.type == "spring") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (2.25 * numToppings);
         }
         if (decoratedRoll.type == "pastry") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (2.50 * numToppings);
         }
         if (decoratedRoll.type == "sausage") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (2.75 * numToppings);
         }
         if (decoratedRoll.type == "jelly") {
-            decoratedRoll.price += 0.50;
+            price = decoratedRoll.price + (2.99 * numToppings);
         }
     }
 }

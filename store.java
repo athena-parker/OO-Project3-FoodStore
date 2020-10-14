@@ -35,37 +35,63 @@ class store extends factory {
     //updates the inventory of each roll
     //prints message when sold out
     public void updateInventory(String roll, int amount) {
+        Random randSauce = new Random();
+        Random randFilling = new Random();
+        Random randToppings = new Random();
+        int extraSauce = randSauce.nextInt(4); //0-3
+        int extraFilling = randFilling.nextInt(2);
+        int extraToppings = randToppings.nextInt(3);
         if (roll == "egg") {
-            dailyEarnings += (eggArray[0].price * amount);
-            System.out.println(amount + " eggroll: " + eggArray[0].price * amount);
+            decorator decoratedEgg = new decorator(eggArray[0]);
+            decoratedEgg.addSauce(extraSauce);
+            decoratedEgg.addFilling(extraFilling);
+            decoratedEgg.addTopping(extraToppings);
+            dailyEarnings += (decoratedEgg.price * amount);
+            System.out.println(amount + " eggroll: " + decoratedEgg.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             eggInventory -= amount;
             if (eggInventory == 0){
                 System.out.println("Sold out of Eggrolls");
             }
         } else if (roll == "jelly") {
-            dailyEarnings += (jellyArray[0].price * amount);
-            System.out.println(amount + " jellyroll: " + jellyArray[0].price * amount);
+            decorator decoratedJelly = new decorator(jellyArray[0]);
+            decoratedJelly.addSauce(extraSauce);
+            decoratedJelly.addFilling(extraFilling);
+            decoratedJelly.addTopping(extraToppings);
+            dailyEarnings += (decoratedJelly.price * amount);
+            System.out.println(amount + " jellyroll: " + decoratedJelly.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             jellyInventory -= amount;
             if (jellyInventory == 0){
                 System.out.println("Sold out of Jellyrolls");
             }
         } else if (roll == "pastry") {
-            dailyEarnings += (pastryArray[0].price * amount);
-            System.out.println(amount + " pastryroll: " + pastryArray[0].price * amount);
+            decorator decoratedPastry = new decorator(pastryArray[0]);
+            decoratedPastry.addSauce(extraSauce);
+            decoratedPastry.addFilling(extraFilling);
+            decoratedPastry.addTopping(extraToppings);
+            dailyEarnings += (decoratedPastry.price * amount);
+            System.out.println(amount + " pastryroll: " + decoratedPastry.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             pastryInventory -= amount;
             if (pastryInventory == 0){
                 System.out.println("Sold out of Pastryrolls");
             }
         } else if (roll == "sausage") {
-            dailyEarnings += (sausageArray[0].price * amount);
-            System.out.println(amount + " sausageroll: " + sausageArray[0].price * amount);
+            decorator decoratedSausage = new decorator(sausageArray[0]);
+            decoratedSausage.addSauce(extraSauce);
+            decoratedSausage.addFilling(extraFilling);
+            decoratedSausage.addTopping(extraToppings);
+            dailyEarnings += (decoratedSausage.price * amount);
+            System.out.println(amount + " sausageroll: " + decoratedSausage.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             sausageInventory -= amount;
             if (sausageInventory == 0){
                 System.out.println("Sold out of Sausagerolls");
             }
         } else if (roll == "spring") {
-            dailyEarnings += (springArray[0].price * amount);
-            System.out.println(amount + " springroll: " + springArray[0].price * amount);
+            decorator decoratedSpring = new decorator(springArray[0]);
+            decoratedSpring.addSauce(extraSauce);
+            decoratedSpring.addFilling(extraFilling);
+            decoratedSpring.addTopping(extraToppings);
+            dailyEarnings += (decoratedSpring.price * amount);
+            System.out.println(amount + " springroll: " + decoratedSpring.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             springInventory -= amount;
             if (springInventory == 0){
                 System.out.println("Sold out of Springrolls");
