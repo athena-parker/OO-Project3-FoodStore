@@ -1,0 +1,1981 @@
+C:\Users\katar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\lib\idea_rt.jar=64563:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\katar\IdeaProjects\OO-Project3-FoodStore\out\production\OO-Project3-FoodStore store
+Enter number of days
+30
+Day 1:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+30 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 10.3 2 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 1 extra sauce 0 extra filling 2 extra toppings
+2 springroll: 7.58 2 extra sauce 1 extra filling 0 extra toppings
+2 pastryroll: 20.6 3 extra sauce 1 extra filling 2 extra toppings
+2 sausageroll: 12.5 3 extra sauce 0 extra filling 0 extra toppings
+2 jellyroll: 12.0 1 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 3 extra sauce 1 extra filling 1 extra toppings
+5 jellyroll: 59.900000000000006 1 extra sauce 1 extra filling 2 extra toppings
+5 eggroll: 21.25 3 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 0 extra sauce 0 extra filling 2 extra toppings
+2 springroll: 12.08 1 extra sauce 0 extra filling 1 extra toppings
+2 pastryroll: 15.6 0 extra sauce 1 extra filling 1 extra toppings
+2 sausageroll: 18.0 1 extra sauce 1 extra filling 1 extra toppings
+2 jellyroll: 17.98 3 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 pastryroll: 26.5 3 extra sauce 0 extra filling 0 extra toppings
+5 springroll: 30.2 2 extra sauce 1 extra filling 1 extra toppings
+5 springroll: 30.2 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 3 extra sauce 0 extra filling 0 extra toppings
+1 jellyroll: 6.0 1 extra sauce 0 extra filling 0 extra toppings
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 6.25 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 4.25 3 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 44.95 1 extra sauce 0 extra filling 1 extra toppings
+5 springroll: 30.2 0 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 58.75 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 3 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 6.25 2 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 8.29 0 extra sauce 1 extra filling 2 extra toppings
+Current Inventory:
+19 Eggrolls
+12 Jellyrolls
+19 Pastryrolls
+11 Sausagerolls
+10 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 600.42
+
+Day 2:
+Current Inventory:
+19 Eggrolls
+12 Jellyrolls
+19 Pastryrolls
+11 Sausagerolls
+10 Springrolls
+A casual customer has arrived!
+1 springroll: 8.29 2 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 41.25 1 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 30.2 1 extra sauce 0 extra filling 1 extra toppings
+5 jellyroll: 30.0 2 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 1 extra sauce 1 extra filling 2 extra toppings
+5 sausageroll: 45.0 0 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 31.25 3 extra sauce 0 extra filling 0 extra toppings
+Sold out of Sausagerolls
+A business customer has arrived!
+A business customer has left!
+A business customer has arrived!
+A business customer has left!
+Current Inventory:
+14 Eggrolls
+2 Jellyrolls
+18 Pastryrolls
+0 Sausagerolls
+4 Springrolls
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 262.69
+
+Day 3:
+Current Inventory:
+14 Eggrolls
+2 Jellyrolls
+18 Pastryrolls
+30 Sausagerolls
+4 Springrolls
+A casual customer has arrived!
+1 jellyroll: 8.99 2 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 6.25 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 21.25 0 extra sauce 0 extra filling 0 extra toppings
+5 eggroll: 21.25 3 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 31.25 1 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 3 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 8.99 3 extra sauce 0 extra filling 1 extra toppings
+Sold out of Jellyrolls
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 sausageroll: 58.75 0 extra sauce 0 extra filling 2 extra toppings
+5 sausageroll: 58.75 2 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 6.25 0 extra sauce 1 extra filling 1 extra toppings
+Sold out of Eggrolls
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 5.3 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 pastryroll: 51.5 1 extra sauce 0 extra filling 2 extra toppings
+5 pastryroll: 51.5 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 10.3 3 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 10.3 2 extra sauce 1 extra filling 2 extra toppings
+Sold out of Pastryrolls
+1 sausageroll: 11.75 0 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+0 Pastryrolls
+10 Sausagerolls
+4 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 448.63000000000005
+
+Day 4:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+30 Pastryrolls
+10 Sausagerolls
+4 Springrolls
+A catering customer has arrived!
+5 pastryroll: 51.5 1 extra sauce 1 extra filling 2 extra toppings
+5 eggroll: 41.25 3 extra sauce 1 extra filling 2 extra toppings
+5 jellyroll: 44.95 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+1 springroll: 8.29 2 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 6.04 3 extra sauce 1 extra filling 1 extra toppings
+Sold out of Springrolls
+5 eggroll: 31.25 3 extra sauce 0 extra filling 1 extra toppings
+5 sausageroll: 31.25 0 extra sauce 0 extra filling 0 extra toppings
+1 eggroll: 8.25 3 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 2 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 4.25 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 1 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+1 sausageroll: 6.25 1 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 0 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+Sold out of Sausagerolls
+5 jellyroll: 30.0 2 extra sauce 0 extra filling 0 extra toppings
+5 eggroll: 31.25 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 7.8 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 3 extra sauce 0 extra filling 0 extra toppings
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 11.98 3 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+1 jellyroll: 8.99 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 0 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 4.25 2 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 3 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+7 Eggrolls
+17 Jellyrolls
+20 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 444.82000000000005
+
+Day 5:
+Current Inventory:
+7 Eggrolls
+17 Jellyrolls
+20 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A catering customer has arrived!
+5 sausageroll: 45.0 3 extra sauce 0 extra filling 1 extra toppings
+5 jellyroll: 30.0 0 extra sauce 0 extra filling 0 extra toppings
+5 eggroll: 21.25 2 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 2 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 6.04 2 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 3 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 0 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 6.25 1 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 6.25 2 extra sauce 0 extra filling 1 extra toppings
+Sold out of Eggrolls
+1 jellyroll: 8.99 1 extra sauce 0 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 sausageroll: 45.0 1 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 31.25 3 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 58.75 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 3 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 0 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 springroll: 41.449999999999996 2 extra sauce 0 extra filling 2 extra toppings
+5 sausageroll: 31.25 0 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 6.25 3 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+Sold out of Sausagerolls
+1 jellyroll: 11.98 0 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 11.98 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 11.98 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+Current Inventory:
+0 Eggrolls
+6 Jellyrolls
+19 Pastryrolls
+0 Sausagerolls
+22 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 437.0400000000001
+
+Day 6:
+Current Inventory:
+30 Eggrolls
+6 Jellyrolls
+19 Pastryrolls
+30 Sausagerolls
+22 Springrolls
+A casual customer has arrived!
+1 jellyroll: 8.99 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 3 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 4.25 1 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 0 extra sauce 1 extra filling 1 extra toppings
+2 springroll: 16.58 1 extra sauce 1 extra filling 2 extra toppings
+2 pastryroll: 20.6 0 extra sauce 1 extra filling 2 extra toppings
+2 sausageroll: 18.0 3 extra sauce 1 extra filling 1 extra toppings
+2 jellyroll: 17.98 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+1 jellyroll: 6.0 1 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 8.99 0 extra sauce 0 extra filling 1 extra toppings
+1 jellyroll: 8.99 3 extra sauce 1 extra filling 1 extra toppings
+Sold out of Jellyrolls
+5 springroll: 41.449999999999996 0 extra sauce 0 extra filling 2 extra toppings
+5 eggroll: 41.25 0 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 8.29 1 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 8.29 1 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 6.04 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 3 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 11.75 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 0 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 8.25 3 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 3 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 springroll: 30.2 3 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 8.29 0 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 8.29 1 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+Sold out of Springrolls
+5 sausageroll: 45.0 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 5.3 3 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+Current Inventory:
+16 Eggrolls
+0 Jellyrolls
+13 Pastryrolls
+19 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 459.3800000000001
+
+Day 7:
+Current Inventory:
+16 Eggrolls
+30 Jellyrolls
+13 Pastryrolls
+19 Sausagerolls
+30 Springrolls
+A catering customer has arrived!
+5 pastryroll: 26.5 1 extra sauce 0 extra filling 0 extra toppings
+5 sausageroll: 31.25 0 extra sauce 1 extra filling 0 extra toppings
+5 springroll: 30.2 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 2 extra sauce 1 extra filling 1 extra toppings
+2 springroll: 12.08 3 extra sauce 0 extra filling 1 extra toppings
+2 pastryroll: 15.6 2 extra sauce 0 extra filling 1 extra toppings
+2 sausageroll: 18.0 1 extra sauce 1 extra filling 1 extra toppings
+2 jellyroll: 12.0 2 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 2 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 11.75 2 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+5 pastryroll: 26.5 3 extra sauce 1 extra filling 0 extra toppings
+Sold out of Pastryrolls
+5 springroll: 18.95 2 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 59.900000000000006 0 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 3 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 6.25 3 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 41.25 1 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 41.449999999999996 1 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 30.2 2 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 0 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 8.29 1 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+Sold out of Eggrolls
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 0 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 9.0 3 extra sauce 1 extra filling 1 extra toppings
+Current Inventory:
+0 Eggrolls
+21 Jellyrolls
+0 Pastryrolls
+6 Sausagerolls
+3 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 552.1199999999999
+
+Day 8:
+Current Inventory:
+30 Eggrolls
+21 Jellyrolls
+30 Pastryrolls
+6 Sausagerolls
+3 Springrolls
+A catering customer has arrived!
+5 sausageroll: 58.75 1 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 8.29 1 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 3.79 1 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 3.79 1 extra sauce 0 extra filling 0 extra toppings
+Sold out of Springrolls
+5 eggroll: 21.25 1 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+Sold out of Sausagerolls
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 6.25 2 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 6.25 2 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 2 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 3 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 6.25 2 extra sauce 0 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 5.3 3 extra sauce 0 extra filling 0 extra toppings
+1 eggroll: 8.25 3 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 jellyroll: 44.95 2 extra sauce 0 extra filling 1 extra toppings
+5 jellyroll: 44.95 3 extra sauce 0 extra filling 1 extra toppings
+5 pastryroll: 51.5 0 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+18 Eggrolls
+9 Jellyrolls
+21 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 345.18
+
+Day 9:
+Current Inventory:
+18 Eggrolls
+9 Jellyrolls
+21 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A casual customer has arrived!
+1 pastryroll: 5.3 2 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 6.25 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 8.29 2 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 1 extra sauce 1 extra filling 2 extra toppings
+5 pastryroll: 51.5 3 extra sauce 1 extra filling 2 extra toppings
+5 pastryroll: 39.0 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 11.75 3 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 1 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 3.79 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 1 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 0 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 sausageroll: 31.25 2 extra sauce 1 extra filling 0 extra toppings
+5 eggroll: 21.25 1 extra sauce 1 extra filling 0 extra toppings
+5 pastryroll: 39.0 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 3 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 11.75 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+Sold out of Jellyrolls
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+5 sausageroll: 58.75 1 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 18.95 2 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 2 extra sauce 1 extra filling 2 extra toppings
+Sold out of Pastryrolls
+1 sausageroll: 11.75 2 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 3 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 11.75 2 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 3 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 2 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 sausageroll: 6.25 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 6.25 3 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+9 Eggrolls
+0 Jellyrolls
+0 Pastryrolls
+6 Sausagerolls
+19 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 595.85
+
+Day 10:
+Current Inventory:
+9 Eggrolls
+30 Jellyrolls
+30 Pastryrolls
+6 Sausagerolls
+19 Springrolls
+A casual customer has arrived!
+1 springroll: 8.29 1 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 9.0 1 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 1 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 8.29 2 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 1 extra sauce 0 extra filling 1 extra toppings
+2 springroll: 7.58 2 extra sauce 0 extra filling 0 extra toppings
+2 pastryroll: 20.6 2 extra sauce 0 extra filling 2 extra toppings
+2 sausageroll: 12.5 2 extra sauce 1 extra filling 0 extra toppings
+2 jellyroll: 17.98 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 jellyroll: 30.0 2 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 44.95 2 extra sauce 0 extra filling 1 extra toppings
+5 springroll: 18.95 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+Sold out of Sausagerolls
+A catering customer has arrived!
+5 springroll: 41.449999999999996 0 extra sauce 1 extra filling 2 extra toppings
+5 eggroll: 31.25 1 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 8.25 2 extra sauce 0 extra filling 2 extra toppings
+Sold out of Eggrolls
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 1 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+Sold out of Springrolls
+A casual customer has arrived!
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+Current Inventory:
+0 Eggrolls
+18 Jellyrolls
+26 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 350.14000000000004
+
+Day 11:
+Current Inventory:
+30 Eggrolls
+18 Jellyrolls
+26 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A casual customer has arrived!
+1 springroll: 3.79 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 1 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 6.25 0 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 6.25 2 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 pastryroll: 51.5 1 extra sauce 1 extra filling 2 extra toppings
+5 sausageroll: 58.75 2 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 41.449999999999996 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 sausageroll: 31.25 2 extra sauce 1 extra filling 0 extra toppings
+5 springroll: 41.449999999999996 0 extra sauce 0 extra filling 2 extra toppings
+5 jellyroll: 59.900000000000006 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 8.5 3 extra sauce 1 extra filling 0 extra toppings
+2 springroll: 12.08 3 extra sauce 0 extra filling 1 extra toppings
+2 pastryroll: 10.6 3 extra sauce 0 extra filling 0 extra toppings
+2 sausageroll: 12.5 2 extra sauce 0 extra filling 0 extra toppings
+2 jellyroll: 17.98 2 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 pastryroll: 39.0 2 extra sauce 0 extra filling 1 extra toppings
+5 springroll: 41.449999999999996 1 extra sauce 0 extra filling 2 extra toppings
+5 pastryroll: 51.5 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 2 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 3 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 2 extra sauce 0 extra filling 2 extra toppings
+2 springroll: 7.58 0 extra sauce 0 extra filling 0 extra toppings
+2 pastryroll: 15.6 1 extra sauce 0 extra filling 1 extra toppings
+2 sausageroll: 23.5 2 extra sauce 1 extra filling 2 extra toppings
+2 jellyroll: 23.96 3 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 11.98 3 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 2 extra sauce 1 extra filling 1 extra toppings
+2 springroll: 7.58 0 extra sauce 0 extra filling 0 extra toppings
+2 pastryroll: 10.6 1 extra sauce 1 extra filling 0 extra toppings
+2 sausageroll: 18.0 3 extra sauce 1 extra filling 1 extra toppings
+2 jellyroll: 12.0 0 extra sauce 0 extra filling 0 extra toppings
+Sold out of Jellyrolls
+Current Inventory:
+18 Eggrolls
+0 Jellyrolls
+1 Pastryrolls
+11 Sausagerolls
+5 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 812.7700000000001
+
+Day 12:
+Current Inventory:
+18 Eggrolls
+30 Jellyrolls
+1 Pastryrolls
+11 Sausagerolls
+5 Springrolls
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+5 springroll: 41.449999999999996 1 extra sauce 0 extra filling 2 extra toppings
+Sold out of Springrolls
+5 sausageroll: 45.0 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 0 extra filling 0 extra toppings
+Sold out of Pastryrolls
+1 eggroll: 8.25 1 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 6.25 2 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 6.25 0 extra sauce 1 extra filling 1 extra toppings
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 0 extra filling 1 extra toppings
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+A catering customer has arrived!
+5 eggroll: 21.25 2 extra sauce 1 extra filling 0 extra toppings
+5 jellyroll: 30.0 3 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 30.0 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 2 extra sauce 0 extra filling 0 extra toppings
+1 jellyroll: 11.98 0 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 eggroll: 41.25 1 extra sauce 1 extra filling 2 extra toppings
+5 jellyroll: 44.95 3 extra sauce 0 extra filling 1 extra toppings
+5 sausageroll: 58.75 1 extra sauce 1 extra filling 2 extra toppings
+Sold out of Sausagerolls
+Current Inventory:
+2 Eggrolls
+11 Jellyrolls
+0 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 413.38
+
+Day 13:
+Current Inventory:
+2 Eggrolls
+11 Jellyrolls
+30 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 6.04 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 3 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 3 extra sauce 0 extra filling 2 extra toppings
+5 pastryroll: 39.0 1 extra sauce 1 extra filling 1 extra toppings
+5 pastryroll: 39.0 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 0 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 2 extra sauce 0 extra filling 2 extra toppings
+Sold out of Eggrolls
+2 springroll: 7.58 0 extra sauce 0 extra filling 0 extra toppings
+2 pastryroll: 10.6 2 extra sauce 1 extra filling 0 extra toppings
+2 sausageroll: 23.5 1 extra sauce 1 extra filling 2 extra toppings
+2 jellyroll: 23.96 3 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 0 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+1 jellyroll: 11.98 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+Sold out of Jellyrolls
+5 springroll: 18.95 1 extra sauce 0 extra filling 0 extra toppings
+5 springroll: 30.2 3 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 0 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 pastryroll: 10.3 1 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 6.04 1 extra sauce 0 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 springroll: 41.449999999999996 2 extra sauce 0 extra filling 2 extra toppings
+5 sausageroll: 45.0 1 extra sauce 0 extra filling 1 extra toppings
+5 springroll: 30.2 2 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+12 Pastryrolls
+21 Sausagerolls
+6 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 498.43000000000006
+
+Day 14:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+12 Pastryrolls
+21 Sausagerolls
+6 Springrolls
+A casual customer has arrived!
+1 sausageroll: 6.25 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 5.3 1 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 0 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 1 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+5 pastryroll: 51.5 3 extra sauce 0 extra filling 2 extra toppings
+5 eggroll: 41.25 1 extra sauce 1 extra filling 2 extra toppings
+5 sausageroll: 45.0 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 2 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 31.25 3 extra sauce 0 extra filling 1 extra toppings
+5 sausageroll: 45.0 1 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 6.04 3 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 8.29 1 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 3 extra sauce 1 extra filling 1 extra toppings
+Sold out of Springrolls
+1 eggroll: 8.25 3 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 2 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 pastryroll: 10.3 1 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 21.25 2 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 45.0 1 extra sauce 1 extra filling 1 extra toppings
+5 eggroll: 21.25 0 extra sauce 1 extra filling 0 extra toppings
+Current Inventory:
+5 Eggrolls
+30 Jellyrolls
+1 Pastryrolls
+2 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 461.0400000000001
+
+Day 15:
+Current Inventory:
+5 Eggrolls
+30 Jellyrolls
+1 Pastryrolls
+2 Sausagerolls
+30 Springrolls
+A catering customer has arrived!
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+Sold out of Pastryrolls
+5 springroll: 41.449999999999996 0 extra sauce 0 extra filling 2 extra toppings
+5 eggroll: 31.25 0 extra sauce 1 extra filling 1 extra toppings
+Sold out of Eggrolls
+1 sausageroll: 6.25 3 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 6.25 1 extra sauce 1 extra filling 0 extra toppings
+Sold out of Sausagerolls
+1 jellyroll: 8.99 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+5 springroll: 18.95 1 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 44.95 1 extra sauce 1 extra filling 1 extra toppings
+5 springroll: 41.449999999999996 0 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 11.98 2 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 11.98 2 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 springroll: 41.449999999999996 0 extra sauce 1 extra filling 2 extra toppings
+5 springroll: 18.95 2 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 59.900000000000006 2 extra sauce 0 extra filling 2 extra toppings
+Current Inventory:
+0 Eggrolls
+14 Jellyrolls
+0 Pastryrolls
+0 Sausagerolls
+3 Springrolls
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 393.64
+
+Day 16:
+Current Inventory:
+30 Eggrolls
+14 Jellyrolls
+30 Pastryrolls
+30 Sausagerolls
+3 Springrolls
+A casual customer has arrived!
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 0 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 58.75 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 8.29 0 extra sauce 1 extra filling 2 extra toppings
+Sold out of Springrolls
+1 sausageroll: 11.75 1 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 11.75 0 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 2 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 8.25 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 11.75 0 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 3 extra sauce 1 extra filling 1 extra toppings
+5 jellyroll: 30.0 3 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 45.0 2 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+1 sausageroll: 6.25 1 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 11.75 0 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 6.25 3 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 9.0 1 extra sauce 0 extra filling 1 extra toppings
+Sold out of Sausagerolls
+5 eggroll: 21.25 1 extra sauce 0 extra filling 0 extra toppings
+5 pastryroll: 26.5 1 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 5.3 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 7.8 1 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 3 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 8.25 3 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 6.0 1 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 6.25 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 3 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 10.3 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 3 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 11.98 0 extra sauce 0 extra filling 2 extra toppings
+Current Inventory:
+20 Eggrolls
+1 Jellyrolls
+14 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 580.0600000000002
+
+Day 17:
+Current Inventory:
+20 Eggrolls
+1 Jellyrolls
+14 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 8.29 0 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 6.25 2 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 6.25 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 0 extra sauce 1 extra filling 1 extra toppings
+Sold out of Jellyrolls
+1 eggroll: 8.25 2 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 pastryroll: 39.0 0 extra sauce 0 extra filling 1 extra toppings
+5 pastryroll: 26.5 1 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 58.75 2 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 1 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+Current Inventory:
+16 Eggrolls
+0 Jellyrolls
+3 Pastryrolls
+23 Sausagerolls
+26 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 206.45000000000002
+
+Day 18:
+Current Inventory:
+16 Eggrolls
+30 Jellyrolls
+3 Pastryrolls
+23 Sausagerolls
+26 Springrolls
+A casual customer has arrived!
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 5.3 0 extra sauce 1 extra filling 0 extra toppings
+Sold out of Pastryrolls
+5 jellyroll: 59.900000000000006 0 extra sauce 1 extra filling 2 extra toppings
+5 eggroll: 31.25 2 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 6.04 1 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 8.29 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 0 extra sauce 0 extra filling 2 extra toppings
+5 sausageroll: 58.75 2 extra sauce 1 extra filling 2 extra toppings
+5 jellyroll: 44.95 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 3 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 jellyroll: 30.0 1 extra sauce 1 extra filling 0 extra toppings
+5 springroll: 30.2 1 extra sauce 0 extra filling 1 extra toppings
+5 sausageroll: 31.25 3 extra sauce 1 extra filling 0 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+Current Inventory:
+10 Eggrolls
+8 Jellyrolls
+0 Pastryrolls
+10 Sausagerolls
+15 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 460.09
+
+Day 19:
+Current Inventory:
+10 Eggrolls
+8 Jellyrolls
+30 Pastryrolls
+10 Sausagerolls
+15 Springrolls
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 1 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 58.75 0 extra sauce 0 extra filling 2 extra toppings
+Sold out of Sausagerolls
+5 jellyroll: 59.900000000000006 3 extra sauce 1 extra filling 2 extra toppings
+A catering customer has arrived!
+5 pastryroll: 39.0 2 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+Sold out of Jellyrolls
+5 pastryroll: 26.5 1 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 5.3 2 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 7.8 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 10.3 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 41.25 1 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 8.25 1 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+Sold out of Eggrolls
+5 springroll: 41.449999999999996 2 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 8.29 0 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 6.04 0 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A business customer has arrived!
+A business customer has left!
+A business customer has arrived!
+A business customer has left!
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+16 Pastryrolls
+0 Sausagerolls
+6 Springrolls
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 424.9300000000001
+
+Day 20:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+16 Pastryrolls
+30 Sausagerolls
+6 Springrolls
+A business customer has arrived!
+2 eggroll: 8.5 3 extra sauce 0 extra filling 0 extra toppings
+2 springroll: 16.58 1 extra sauce 0 extra filling 2 extra toppings
+2 pastryroll: 15.6 2 extra sauce 0 extra filling 1 extra toppings
+2 sausageroll: 23.5 3 extra sauce 0 extra filling 2 extra toppings
+2 jellyroll: 17.98 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 1 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 9.0 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 0 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 7.8 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 3 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 sausageroll: 58.75 2 extra sauce 1 extra filling 2 extra toppings
+5 sausageroll: 31.25 2 extra sauce 0 extra filling 0 extra toppings
+5 eggroll: 31.25 2 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 2 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 2 extra sauce 1 extra filling 2 extra toppings
+2 springroll: 16.58 3 extra sauce 1 extra filling 2 extra toppings
+2 pastryroll: 20.6 1 extra sauce 1 extra filling 2 extra toppings
+2 sausageroll: 23.5 0 extra sauce 0 extra filling 2 extra toppings
+2 jellyroll: 23.96 2 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 2 extra sauce 1 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 6.25 2 extra sauce 0 extra filling 0 extra toppings
+Current Inventory:
+18 Eggrolls
+21 Jellyrolls
+10 Pastryrolls
+10 Sausagerolls
+1 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 438.8700000000001
+
+Day 21:
+Current Inventory:
+18 Eggrolls
+21 Jellyrolls
+10 Pastryrolls
+10 Sausagerolls
+1 Springrolls
+A casual customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 6.04 2 extra sauce 0 extra filling 1 extra toppings
+Sold out of Springrolls
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 2 extra sauce 0 extra filling 2 extra toppings
+5 eggroll: 31.25 2 extra sauce 1 extra filling 1 extra toppings
+5 jellyroll: 44.95 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 0 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 jellyroll: 6.0 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 0 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 8.99 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 41.25 3 extra sauce 0 extra filling 2 extra toppings
+5 jellyroll: 30.0 1 extra sauce 0 extra filling 0 extra toppings
+Sold out of Jellyrolls
+5 eggroll: 31.25 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 4.25 1 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+Sold out of Eggrolls
+A casual customer has arrived!
+1 pastryroll: 7.8 3 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 1 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 6.25 3 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 5.3 1 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 sausageroll: 31.25 3 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 11.75 1 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 11.75 0 extra sauce 0 extra filling 2 extra toppings
+Sold out of Sausagerolls
+5 pastryroll: 26.5 2 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+Sold out of Pastryrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+0 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+Daily Earnings: 458.58000000000004
+
+Day 22:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+30 Pastryrolls
+30 Sausagerolls
+30 Springrolls
+A catering customer has arrived!
+5 sausageroll: 31.25 0 extra sauce 1 extra filling 0 extra toppings
+5 jellyroll: 59.900000000000006 1 extra sauce 0 extra filling 2 extra toppings
+5 eggroll: 31.25 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 2 extra sauce 0 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 8.5 1 extra sauce 0 extra filling 0 extra toppings
+2 springroll: 7.58 3 extra sauce 1 extra filling 0 extra toppings
+2 pastryroll: 20.6 2 extra sauce 0 extra filling 2 extra toppings
+2 sausageroll: 18.0 2 extra sauce 1 extra filling 1 extra toppings
+2 jellyroll: 12.0 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 1 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 3.79 1 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 30.0 3 extra sauce 1 extra filling 0 extra toppings
+5 sausageroll: 45.0 0 extra sauce 0 extra filling 1 extra toppings
+5 springroll: 18.95 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 6.25 1 extra sauce 1 extra filling 1 extra toppings
+Current Inventory:
+19 Eggrolls
+16 Jellyrolls
+27 Pastryrolls
+15 Sausagerolls
+22 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 371.61000000000007
+
+Day 23:
+Current Inventory:
+19 Eggrolls
+16 Jellyrolls
+27 Pastryrolls
+15 Sausagerolls
+22 Springrolls
+A catering customer has arrived!
+5 pastryroll: 39.0 1 extra sauce 0 extra filling 1 extra toppings
+5 eggroll: 31.25 1 extra sauce 1 extra filling 1 extra toppings
+5 jellyroll: 59.900000000000006 2 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 1 extra sauce 1 extra filling 1 extra toppings
+1 springroll: 3.79 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 2 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 3 extra sauce 0 extra filling 0 extra toppings
+A business customer has arrived!
+2 eggroll: 8.5 3 extra sauce 1 extra filling 0 extra toppings
+2 springroll: 7.58 0 extra sauce 1 extra filling 0 extra toppings
+2 pastryroll: 15.6 0 extra sauce 0 extra filling 1 extra toppings
+2 sausageroll: 18.0 3 extra sauce 0 extra filling 1 extra toppings
+2 jellyroll: 17.98 3 extra sauce 1 extra filling 1 extra toppings
+Current Inventory:
+12 Eggrolls
+8 Jellyrolls
+19 Pastryrolls
+12 Sausagerolls
+16 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 240.76
+
+Day 24:
+Current Inventory:
+12 Eggrolls
+8 Jellyrolls
+19 Pastryrolls
+12 Sausagerolls
+16 Springrolls
+A business customer has arrived!
+2 eggroll: 16.5 1 extra sauce 0 extra filling 2 extra toppings
+2 springroll: 16.58 1 extra sauce 0 extra filling 2 extra toppings
+2 pastryroll: 10.6 1 extra sauce 0 extra filling 0 extra toppings
+2 sausageroll: 12.5 0 extra sauce 0 extra filling 0 extra toppings
+2 jellyroll: 12.0 1 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 10.3 1 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 2 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 6.25 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 10.3 3 extra sauce 0 extra filling 2 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 1 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 58.75 0 extra sauce 1 extra filling 2 extra toppings
+Sold out of Sausagerolls
+5 eggroll: 41.25 0 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 8.29 3 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 6.25 3 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 6.0 0 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 3.79 2 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 0 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 0 extra filling 0 extra toppings
+Current Inventory:
+2 Eggrolls
+3 Jellyrolls
+11 Pastryrolls
+0 Sausagerolls
+11 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 318.3300000000001
+
+Day 25:
+Current Inventory:
+2 Eggrolls
+3 Jellyrolls
+11 Pastryrolls
+30 Sausagerolls
+11 Springrolls
+A catering customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 0 extra filling 1 extra toppings
+1 jellyroll: 6.0 0 extra sauce 1 extra filling 0 extra toppings
+1 jellyroll: 11.98 1 extra sauce 0 extra filling 2 extra toppings
+Sold out of Jellyrolls
+1 eggroll: 6.25 1 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+Sold out of Eggrolls
+5 sausageroll: 58.75 1 extra sauce 0 extra filling 2 extra toppings
+5 springroll: 41.449999999999996 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 10.3 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 5.3 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 11.75 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 1 extra sauce 0 extra filling 0 extra toppings
+1 sausageroll: 11.75 2 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 3.79 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 3 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+6 Pastryrolls
+22 Sausagerolls
+3 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 224.29000000000002
+
+Day 26:
+Current Inventory:
+30 Eggrolls
+30 Jellyrolls
+6 Pastryrolls
+22 Sausagerolls
+3 Springrolls
+A casual customer has arrived!
+1 springroll: 6.04 3 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 10.3 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 1 extra filling 0 extra toppings
+1 eggroll: 6.25 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 pastryroll: 5.3 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 5.3 3 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+1 springroll: 8.29 3 extra sauce 0 extra filling 2 extra toppings
+1 springroll: 6.04 0 extra sauce 0 extra filling 1 extra toppings
+Sold out of Springrolls
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 10.3 1 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 5.3 1 extra sauce 1 extra filling 0 extra toppings
+Sold out of Pastryrolls
+5 jellyroll: 44.95 2 extra sauce 0 extra filling 1 extra toppings
+5 eggroll: 21.25 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 1 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 sausageroll: 45.0 3 extra sauce 1 extra filling 1 extra toppings
+5 eggroll: 21.25 2 extra sauce 0 extra filling 0 extra toppings
+5 sausageroll: 58.75 0 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 2 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 sausageroll: 9.0 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 9.0 1 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 eggroll: 4.25 2 extra sauce 0 extra filling 0 extra toppings
+1 eggroll: 8.25 1 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 6.25 0 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+5 jellyroll: 30.0 2 extra sauce 1 extra filling 0 extra toppings
+5 eggroll: 21.25 0 extra sauce 0 extra filling 0 extra toppings
+5 jellyroll: 44.95 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 1 extra sauce 1 extra filling 2 extra toppings
+Current Inventory:
+8 Eggrolls
+12 Jellyrolls
+0 Pastryrolls
+10 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 444.29
+
+Day 27:
+Current Inventory:
+8 Eggrolls
+12 Jellyrolls
+30 Pastryrolls
+10 Sausagerolls
+30 Springrolls
+A casual customer has arrived!
+1 eggroll: 8.25 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 5.3 1 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 eggroll: 8.25 0 extra sauce 1 extra filling 2 extra toppings
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 6.0 0 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 0 extra filling 0 extra toppings
+1 eggroll: 8.25 3 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 2 extra sauce 0 extra filling 1 extra toppings
+2 springroll: 7.58 2 extra sauce 1 extra filling 0 extra toppings
+2 pastryroll: 20.6 2 extra sauce 1 extra filling 2 extra toppings
+2 sausageroll: 12.5 3 extra sauce 1 extra filling 0 extra toppings
+2 jellyroll: 23.96 1 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 0 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 10.3 2 extra sauce 1 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 1 extra filling 1 extra toppings
+1 jellyroll: 8.99 0 extra sauce 0 extra filling 1 extra toppings
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 2 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 0 extra sauce 0 extra filling 2 extra toppings
+1 pastryroll: 7.8 3 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 0 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+1 eggroll: 6.25 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 sausageroll: 11.75 0 extra sauce 1 extra filling 2 extra toppings
+1 eggroll: 4.25 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+1 sausageroll: 11.75 3 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+A business customer has left!
+A catering customer has arrived!
+1 eggroll: 8.25 1 extra sauce 1 extra filling 2 extra toppings
+Sold out of Eggrolls
+1 sausageroll: 6.25 3 extra sauce 1 extra filling 0 extra toppings
+1 sausageroll: 6.25 3 extra sauce 1 extra filling 0 extra toppings
+Sold out of Sausagerolls
+5 springroll: 18.95 0 extra sauce 1 extra filling 0 extra toppings
+5 pastryroll: 51.5 2 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+1 pastryroll: 5.3 0 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+0 Eggrolls
+4 Jellyrolls
+14 Pastryrolls
+0 Sausagerolls
+22 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 385.0300000000001
+
+Day 28:
+Current Inventory:
+30 Eggrolls
+4 Jellyrolls
+14 Pastryrolls
+30 Sausagerolls
+22 Springrolls
+A casual customer has arrived!
+1 pastryroll: 5.3 0 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 8.29 1 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 8.99 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 jellyroll: 6.0 2 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+5 eggroll: 21.25 3 extra sauce 0 extra filling 0 extra toppings
+5 sausageroll: 31.25 1 extra sauce 1 extra filling 0 extra toppings
+5 pastryroll: 26.5 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 jellyroll: 11.98 2 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 0 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 springroll: 3.79 2 extra sauce 1 extra filling 0 extra toppings
+1 springroll: 3.79 3 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+1 springroll: 6.04 1 extra sauce 0 extra filling 1 extra toppings
+1 jellyroll: 6.0 0 extra sauce 1 extra filling 0 extra toppings
+Sold out of Jellyrolls
+A business customer has arrived!
+A business customer has left!
+A casual customer has arrived!
+1 sausageroll: 9.0 0 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 6.04 1 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 0 extra sauce 0 extra filling 1 extra toppings
+Current Inventory:
+24 Eggrolls
+0 Jellyrolls
+6 Pastryrolls
+24 Sausagerolls
+17 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+Daily Earnings: 174.07000000000002
+
+Day 29:
+Current Inventory:
+24 Eggrolls
+30 Jellyrolls
+6 Pastryrolls
+24 Sausagerolls
+17 Springrolls
+A casual customer has arrived!
+1 springroll: 6.04 2 extra sauce 0 extra filling 1 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 1 extra sauce 0 extra filling 1 extra toppings
+2 springroll: 12.08 3 extra sauce 1 extra filling 1 extra toppings
+2 pastryroll: 20.6 3 extra sauce 0 extra filling 2 extra toppings
+2 sausageroll: 12.5 2 extra sauce 0 extra filling 0 extra toppings
+2 jellyroll: 23.96 3 extra sauce 1 extra filling 2 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 1 extra sauce 0 extra filling 2 extra toppings
+2 springroll: 16.58 2 extra sauce 0 extra filling 2 extra toppings
+2 pastryroll: 20.6 1 extra sauce 1 extra filling 2 extra toppings
+2 sausageroll: 23.5 2 extra sauce 0 extra filling 2 extra toppings
+2 jellyroll: 12.0 0 extra sauce 1 extra filling 0 extra toppings
+A business customer has arrived!
+2 eggroll: 16.5 1 extra sauce 1 extra filling 2 extra toppings
+2 springroll: 7.58 1 extra sauce 1 extra filling 0 extra toppings
+2 pastryroll: 10.6 2 extra sauce 0 extra filling 0 extra toppings
+Sold out of Pastryrolls
+2 sausageroll: 12.5 1 extra sauce 0 extra filling 0 extra toppings
+2 jellyroll: 17.98 0 extra sauce 1 extra filling 1 extra toppings
+A catering customer has arrived!
+5 eggroll: 31.25 0 extra sauce 1 extra filling 1 extra toppings
+5 sausageroll: 58.75 0 extra sauce 1 extra filling 2 extra toppings
+5 sausageroll: 45.0 3 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 springroll: 30.2 2 extra sauce 0 extra filling 1 extra toppings
+5 eggroll: 31.25 3 extra sauce 0 extra filling 1 extra toppings
+5 sausageroll: 31.25 2 extra sauce 0 extra filling 0 extra toppings
+Current Inventory:
+8 Eggrolls
+24 Jellyrolls
+0 Pastryrolls
+3 Sausagerolls
+5 Springrolls
+A casual customer has left!
+A business customer has left!
+A business customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 469.71999999999997
+
+Day 30:
+Current Inventory:
+8 Eggrolls
+24 Jellyrolls
+30 Pastryrolls
+3 Sausagerolls
+5 Springrolls
+A casual customer has arrived!
+1 springroll: 6.04 0 extra sauce 0 extra filling 1 extra toppings
+A casual customer has arrived!
+1 springroll: 8.29 0 extra sauce 0 extra filling 2 extra toppings
+1 eggroll: 4.25 1 extra sauce 0 extra filling 0 extra toppings
+A casual customer has arrived!
+1 sausageroll: 6.25 0 extra sauce 0 extra filling 0 extra toppings
+1 springroll: 6.04 2 extra sauce 1 extra filling 1 extra toppings
+A casual customer has arrived!
+1 pastryroll: 7.8 1 extra sauce 1 extra filling 1 extra toppings
+A business customer has arrived!
+2 eggroll: 12.5 0 extra sauce 1 extra filling 1 extra toppings
+2 springroll: 16.58 3 extra sauce 0 extra filling 2 extra toppings
+Sold out of Springrolls
+2 pastryroll: 15.6 1 extra sauce 1 extra filling 1 extra toppings
+2 sausageroll: 12.5 3 extra sauce 0 extra filling 0 extra toppings
+Sold out of Sausagerolls
+2 jellyroll: 12.0 2 extra sauce 0 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 1 extra sauce 1 extra filling 2 extra toppings
+5 eggroll: 41.25 0 extra sauce 1 extra filling 2 extra toppings
+Sold out of Eggrolls
+5 pastryroll: 39.0 0 extra sauce 0 extra filling 1 extra toppings
+A catering customer has arrived!
+5 jellyroll: 44.95 3 extra sauce 0 extra filling 1 extra toppings
+5 jellyroll: 30.0 3 extra sauce 1 extra filling 0 extra toppings
+5 pastryroll: 51.5 3 extra sauce 0 extra filling 2 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 0 extra sauce 0 extra filling 2 extra toppings
+1 jellyroll: 6.0 1 extra sauce 1 extra filling 0 extra toppings
+A catering customer has arrived!
+5 jellyroll: 59.900000000000006 0 extra sauce 1 extra filling 2 extra toppings
+1 jellyroll: 6.0 0 extra sauce 0 extra filling 0 extra toppings
+Sold out of Jellyrolls
+5 pastryroll: 39.0 1 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 7.8 2 extra sauce 1 extra filling 1 extra toppings
+1 pastryroll: 7.8 2 extra sauce 0 extra filling 1 extra toppings
+1 pastryroll: 5.3 2 extra sauce 1 extra filling 0 extra toppings
+1 pastryroll: 5.3 3 extra sauce 1 extra filling 0 extra toppings
+A casual customer has arrived!
+1 pastryroll: 10.3 3 extra sauce 1 extra filling 2 extra toppings
+1 pastryroll: 5.3 2 extra sauce 1 extra filling 0 extra toppings
+Current Inventory:
+0 Eggrolls
+0 Jellyrolls
+4 Pastryrolls
+0 Sausagerolls
+0 Springrolls
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A casual customer has left!
+A business customer has left!
+A catering customer has left!
+A catering customer has left!
+A catering customer has left!
+Daily Earnings: 542.7499999999998
+
+Total Earnings: 12815.360000000004
+
+Process finished with exit code 0
