@@ -157,7 +157,7 @@ class store extends factory {
                     int numRollsGot = 0;
                     int numRollOrder = randNumRoll.nextInt(3) + 1; //1-3 rolls
                     int whichRoll;
-                    while (numRollsGot < numRollOrder) {
+                    while (numRollsGot < numRollOrder && (rollStore.eggInventory > 0 || rollStore.springInventory > 0 || rollStore.jellyInventory > 0 || rollStore.sausageInventory > 0 || rollStore.pastryInventory > 0)) {
                         whichRoll = randRoll.nextInt(5); //0-4, one for each roll
                         if(whichRoll == 0){
                             if (rollStore.eggInventory > 0) {
