@@ -14,10 +14,6 @@ public abstract class customer extends PropertyChangeSupport implements Property
     public void leave () {
         System.out.println("A " + type + " customer has left!");
     }
-    public String orderRolls () {
-        return "nothing";
-    }
-    public void rollsOut (String type) {}
 
     public void propertyChange(PropertyChangeEvent event) { //whenever event changes, zoo announcer announces.
         if (event.getNewValue() == "closed") {

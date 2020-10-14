@@ -152,7 +152,44 @@ class store extends factory {
             for(int j = 0; j < (numCas+numBis+numCat); j++) {
                 dailyCustomers[j].arrive();
                 if (dailyCustomers[j].type == "casual") {
-
+                    Random randRoll = new Random();
+                    Random randNumRoll = new Random();
+                    int numRollsGot = 0;
+                    int numRollOrder = randNumRoll.nextInt(3) + 1; //1-3 rolls
+                    int whichRoll;
+                    while (numRollsGot < numRollOrder) {
+                        whichRoll = randRoll.nextInt(5); //0-4, one for each roll
+                        if(whichRoll == 0){
+                            if (rollStore.eggInventory > 0) {
+                                rollStore.updateInventory("egg", 1);
+                                numRollsGot++;
+                            }
+                        }
+                        else if(whichRoll == 1){
+                            if (rollStore.jellyInventory > 0) {
+                                rollStore.updateInventory("jelly", 1);
+                                numRollsGot++;
+                            }
+                        }
+                        else if(whichRoll == 2){
+                            if (rollStore.pastryInventory > 0) {
+                                rollStore.updateInventory("pastry", 1);
+                                numRollsGot++;
+                            }
+                        }
+                        else if(whichRoll == 3){
+                            if (rollStore.sausageInventory > 0) {
+                                rollStore.updateInventory("sausage", 1);
+                                numRollsGot++;
+                            }
+                        }
+                        else{
+                            if (rollStore.springInventory > 0) {
+                                rollStore.updateInventory("spring", 1);
+                                numRollsGot++;
+                            }
+                        }
+                    }
                 }
                 if (dailyCustomers[j].type == "business") {
                     if (rollStore.eggInventory < 2 || rollStore.springInventory < 2 || rollStore.jellyInventory < 2 || rollStore.sausageInventory < 2 || rollStore.pastryInventory < 2) {
@@ -167,16 +204,15 @@ class store extends factory {
                 }
                 if (dailyCustomers[j].type == "catering") {
                     //orders 5 rolls of 3 different types determined randomly
-                    if (type1.inventory < 5 || type2.inventory < 5 || type3.inventory < 5) {
-                        //give them random stuff
-                    }
-                    else {
-                        rollStore.updateInventory("type1", 5);
-                        rollStore.updateInventory("type2", 5);
-                        rollStore.updateInventory("type3", 5);
-                    }
+//                    if (type1.inventory < 5 || type2.inventory < 5 || type3.inventory < 5) {
+//                        //give them random stuff
+//                    }
+//                    else {
+//                        rollStore.updateInventory("type1", 5);
+//                        rollStore.updateInventory("type2", 5);
+//                        rollStore.updateInventory("type3", 5);
+//                    }
                 }
-                //dailyCustomers[j].orderRolls();
                 if (rollStore.eggInventory == 0 && rollStore.jellyInventory == 0 && rollStore.sausageInventory == 0 && rollStore.pastryInventory == 0 && rollStore.springInventory == 0) {
                     open = false;
                     eventbean.makeEvent("closed");
@@ -185,7 +221,7 @@ class store extends factory {
 
             open = false;
             eventbean.makeEvent("closed");
-            System.out.println("Daily Earnings: " + rollStore.dailyEarnings);
+            System.out.println("Daily Earnings: " + rollStore.dailyEarnings + "\n");
             rollStore.totalEarnings += rollStore.dailyEarnings;
             rollStore.dailyEarnings = 0;
 

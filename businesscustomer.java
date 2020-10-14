@@ -3,11 +3,4 @@ class businesscustomer extends customer {
         super(sourcebean);
         type = "business";
     }
-    //public void orderRolls () {
-        //System.out.println("Business Customer would like 2 of each roll");
-    //}
-
-    public void rollsOut(String type) {
-
-    }
 }
