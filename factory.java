@@ -1,5 +1,5 @@
 class factory { //factory pattern
-    factory () {}
+    factory () {} //FACTORY - create rolls and customers
     public roll createRoll (String rollType) {
         if (rollType == "egg") {
             return new eggroll();

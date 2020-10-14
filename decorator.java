@@ -1,6 +1,6 @@
 class decorator extends roll{
     public roll decoratedRoll;
-    public decorator(roll toDecorate){
+    public decorator(roll toDecorate){ //DECORATOR - add sauce, filling, and toppings to rolls
         decoratedRoll = toDecorate;
     }
     public void addSauce(int numSauce) {

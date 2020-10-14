@@ -34,7 +34,7 @@ class store extends factory {
 
     //updates the inventory of each roll
     //prints message when sold out
-    public void updateInventory(String roll, int amount) {
+    public void updateInventory(String roll, int amount) { //IMPLEMENTS DECORATOR - wraps regular rolls
         Random randSauce = new Random();
         Random randFilling = new Random();
         Random randToppings = new Random();
@@ -46,7 +46,7 @@ class store extends factory {
             decoratedEgg.addSauce(extraSauce);
             decoratedEgg.addFilling(extraFilling);
             decoratedEgg.addTopping(extraToppings);
-            dailyEarnings += (decoratedEgg.price * amount);
+            dailyEarnings += (decoratedEgg.price * amount); //takes new price of decorated roll
             System.out.println(amount + " eggroll: " + decoratedEgg.price * amount + " " + extraSauce + " extra sauce " + extraFilling + " extra filling " + extraToppings + " extra toppings");
             eggInventory -= amount;
             if (eggInventory == 0){
@@ -99,7 +99,7 @@ class store extends factory {
         }
     }
 
-    private void callFactory(roll[] array, factory store_Factory, String type){
+    private void callFactory(roll[] array, factory store_Factory, String type){ //IMPLEMENT FACTORY - creating rolls
         for(int i =0; i < 30; i++){
             array[i] = store_Factory.createRoll(type);
         }
@@ -158,8 +158,8 @@ class store extends factory {
             open = true;
             eventbean.makeEvent("open");
             for(int j = 0; j < numCas; j++){
-                dailyCustomers[j] = storeFactory.createCustomer("casual");
-                eventbean.addPropertyChangeListener(dailyCustomers[j]);
+                dailyCustomers[j] = storeFactory.createCustomer("casual"); //IMPLEMENT FACTORY AGAIN - create customers
+                eventbean.addPropertyChangeListener(dailyCustomers[j]); //IMPLEMENT OBSERVER - all new customers observe store
             }
             for(int j = numCas; j < (numCas+numBis); j++){
                 dailyCustomers[j] = storeFactory.createCustomer("business");
@@ -176,8 +176,10 @@ class store extends factory {
             System.out.println("Day "+ i +":");
             rollStore.printInventory(rollStore);
             for(int j = 0; j < (numCas+numBis+numCat); j++) {
+                //go through all customers for a day
                 dailyCustomers[j].arrive();
                 if (dailyCustomers[j].type == "casual") {
+                    //casual customer - order 1-3 random rolls, keep ordering if unavailable
                     Random randRoll = new Random();
                     Random randNumRoll = new Random();
                     int numRollsGot = 0;
@@ -218,6 +220,7 @@ class store extends factory {
                     }
                 }
                 if (dailyCustomers[j].type == "business") {
+                    //business customer - order 2 of each kind of roll, leave if unavailable
                     if (rollStore.eggInventory < 2 || rollStore.springInventory < 2 || rollStore.jellyInventory < 2 || rollStore.sausageInventory < 2 || rollStore.pastryInventory < 2) {
                         dailyCustomers[j].leave();
                     } else {
@@ -229,7 +232,7 @@ class store extends factory {
                     }
                 }
                 if (dailyCustomers[j].type == "catering") {
-                    //orders 5 rolls of 3 different types determined randomly
+                    //catering customer - orders 5 rolls of 3 different types determined randomly, keep ordering if unavailable
                     Random randRoll = new Random();
                     int type = -1;
                     int numRolls = 0;

@@ -15,6 +15,7 @@ public abstract class customer extends PropertyChangeSupport implements Property
         System.out.println("A " + type + " customer has left!");
     }
 
+    //OBSERVER - all customers observe the store to see if it is closed
     public void propertyChange(PropertyChangeEvent event) { //whenever event changes, zoo announcer announces.
         if (event.getNewValue() == "closed") {
             leave();
